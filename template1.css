@@ -1,0 +1,202 @@
+#top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+#navright{
+    float: right;
+}
+#card{
+    padding: 8px 16px;
+}
+#card a{
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 16px;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 15px;
+    display: inline-block;
+}
+#card a:hover{
+   background-color: #ccc;
+}
+.box-shadow{
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 5px 0 rgba(0,0,0,0.12); 
+}
+#image{
+    max-width:100%;height:auto; padding: 0 8px;   
+}
+.auto{
+    margin-left:auto;margin-right:auto; 
+}
+#menu-section{
+    position: relative;
+    margin-bottom: 40px;
+}
+#text-menu{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5px;
+    left:50%;
+    transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);
+  
+}
+#br-text{
+    background-color: black;
+    padding: 8px 16px;
+    color: white;
+    opacity: 0.7;
+}
+#arc-text{
+    color: white;
+    font-size: 35px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;}
+.project-title
+{
+    padding: 12px 24px;
+}
+.border{
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 16px;
+    
+}
+.project-container{
+    padding: 16px;
+ }
+ .project-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.four-image{
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+.display{
+    position: relative;
+}
+.topleft{
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 16px;
+    color: white;
+    background-color: black;
+}
+.about-title
+{
+    padding: 0px 24px;
+    margin-top: 50px;
+   
+}
+#text-about{
+    font-size: 15.2px;
+    line-height: 1.5;
+}
+.image-item-about{
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+#images-about::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#images-about{
+    padding: 24px 12px;
+}
+#images-about img{
+    filter:grayscale(75%);
+    vertical-align: middle
+}
+.work{
+    padding: 8px 0;
+    opacity: 0.6;
+}
+.text-description
+{
+    font-size: 15.2px;
+    line-height: 1.5;
+    padding: 8px 0;}
+.button-image{
+    background-color:#f1f1f1!;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border:none;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px 0;
+    display: block;
+}
+.button-image:hover{
+    background-color: grey;
+}
+.contact-title{
+    padding: 24px;
+}
+input[type=text],input[type=email]{
+    width: 100%;
+    padding: 12px;
+    margin: 16px 0px;
+    border:1px solid #ccc!important;
+    display: block;
+    font-size: 16.5px;
+
+}
+input[type=submit]{
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    margin: 16px 0;
+}
+#contact-image{
+    padding: 8px 24px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 32px;
+    font-size: 15px;
+}
+footer a:hover{
+    color: green;
+}
+footer a{
+    color: white;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{font-family: Verdana, sans-serif;}
+
+/*
+commentez
+comprendre le padding et si possible trouver un raccourci pour ceux qui se repete.
+comprendre le vertical align:middle le filtrage box-shadow float.
+bien positionner le id de chaque lien?
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+*/
