@@ -37,7 +37,7 @@
     position: relative;
     margin-bottom: 8px;
 }
-#text-menu{
+#menu-section h1{
     position: absolute;
     top: 50%;
     width: 100%;
@@ -101,11 +101,9 @@ h1, h2, h3, h4, h5, h6 {
 .about-title
 {
     padding: 44px 32px;
-    margin-top: 8px; /**/
-   
-   
+    margin-top: 8px; /**/  
 }
-#text-about{
+.about-title p{
     font-size: 15.2px;
     line-height: 1.5;
     padding-top: 8px;
@@ -136,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 15.2px;
     line-height: 1.5;
     padding: 8px 0;}
-.button-image{
+#images-about button{
     background-color:#f1f1f1!;
     color: black;
     padding: 8px 16px;
